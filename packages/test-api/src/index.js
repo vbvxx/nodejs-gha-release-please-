@@ -2,3 +2,4 @@
 // feat(DP-23): Great feature
 // fix(DP-44): Great fix
 // doc(DP-670): Great doc
+// perf(GG-22): GG Perf improvement
