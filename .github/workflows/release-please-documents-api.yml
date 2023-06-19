@@ -1,13 +1,16 @@
 name: Release Please Documents API
+env:
+  PACKAGE_NAME: test-api
+
 on:
   push:
     branches:
       - main
     paths:
-      - "packages/test-api/**"
+      - "packages/${{ env.PACKAGE_NAME }}/**"
   pull_request:
     paths:
-      - "packages/test-api/**"
+      - "packages/${{ env.PACKAGE_NAME }}/**"
 
 permissions:
   contents: write
@@ -21,8 +24,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: test-api
-          component: test-api
-          pull-request-title-pattern: "chore(test-api): release ${version}"
-          path: packages/test-api
+          package-name: ${{ env.PACKAGE_NAME }}
+          component: ${{ env.PACKAGE_NAME }}
+          pull-request-title-pattern: "chore(${{ env.PACKAGE_NAME }}): release ${version}"
+          path: packages/${{ env.PACKAGE_NAME }}
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Other","hidden":false},{"type": "refactor","section": "Other"},{"type":"docs","section":"Other","hidden":false},{"type":"style","section":"Other","hidden":false},{"type":"perf","section":"Performance improvements","hidden":false},{"type":"test","section":"Tests","hidden":false}]'
