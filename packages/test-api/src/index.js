@@ -7,3 +7,4 @@
 // feat(TEST-22): should create a release PR
 // feat(TEST-23): should name the release correctly
 // fix(TEST-24): should name the release correctly
+// feat(TEST-25): Add variable for package-name
