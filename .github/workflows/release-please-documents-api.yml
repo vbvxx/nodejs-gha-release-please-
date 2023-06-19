@@ -22,5 +22,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
           package-name: test-api
+          component: test-api
           path: packages/test-api
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Other","hidden":false},{"type": "refactor","section": "Other"},{"type":"docs","section":"Other","hidden":false},{"type":"style","section":"Other","hidden":false},{"type":"perf","section":"Performance improvements","hidden":false},{"type":"test","section":"Tests","hidden":false}]'

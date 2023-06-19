@@ -5,3 +5,4 @@
 // perf(GG-22): GG Perf improvement
 // fix: I did not create a JIRA ticket
 // feat(TEST-22): should create a release PR
+// feat(TEST-23): should name the release correctly
