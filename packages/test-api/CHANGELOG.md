@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.0](https://github.com/vbvxx/nodejs-gha-release-please-/compare/v1.1.0...v1.2.0) (2023-06-19)
+
+
+### Features
+
+* **TEST-22:** should create a release PR ([#3](https://github.com/vbvxx/nodejs-gha-release-please-/issues/3)) ([72040b5](https://github.com/vbvxx/nodejs-gha-release-please-/commit/72040b5e998991370a78ba95af192b2af82ed2e9))
+* **TEST-25:** should name the release correctly ([#7](https://github.com/vbvxx/nodejs-gha-release-please-/issues/7)) ([c893f66](https://github.com/vbvxx/nodejs-gha-release-please-/commit/c893f669e648f660b345018169c48a4994b00083))
+
+
+### Bug Fixes
+
+* **TEST-24:** should name the release correctly ([#6](https://github.com/vbvxx/nodejs-gha-release-please-/issues/6)) ([01aa254](https://github.com/vbvxx/nodejs-gha-release-please-/commit/01aa254d39cdc200fd949efda87c4f82e88bdc9e))
+* **TEST-26:** Test ([#8](https://github.com/vbvxx/nodejs-gha-release-please-/issues/8)) ([60bdccc](https://github.com/vbvxx/nodejs-gha-release-please-/commit/60bdcccf6b190c4a5225e26f182088785c85e1fc))
+
+
+### Other
+
+* **TEST-23:** specify component name ([#5](https://github.com/vbvxx/nodejs-gha-release-please-/issues/5)) ([0cbc80f](https://github.com/vbvxx/nodejs-gha-release-please-/commit/0cbc80feb6ebb4f2ea55f0ecdf4716557efa7cff))
+
 ## [1.1.0](https://github.com/vbvxx/nodejs-gha-release-please-/compare/v1.0.1...v1.1.0) (2023-06-19)
 
 
